@@ -73,31 +73,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Floating Elements */}
-        <div className="absolute top-1/2 right-10 hidden lg:block animate-float">
-          <div className="glass-effect p-6 rounded-2xl">
-            <div className="text-center">
-              <div className="text-3xl font-heading font-bold text-luxury mb-2">15+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="absolute bottom-32 right-32 hidden xl:block animate-float" style={{ animationDelay: '1s' }}>
-          <div className="glass-effect p-4 rounded-xl">
-            <div className="text-center">
-              <div className="text-2xl font-heading font-bold text-luxury mb-1">500+</div>
-              <div className="text-xs text-muted-foreground"> Happy Clients</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary/30 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
-        </div>
       </div>
     </section>
   );
