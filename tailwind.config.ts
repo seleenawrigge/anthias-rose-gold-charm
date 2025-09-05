@@ -26,12 +26,28 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))',
+					dark: 'hsl(var(--primary-dark))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					accent: 'hsl(var(--secondary-accent))'
 				},
+				'rose-gold': {
+					DEFAULT: 'hsl(var(--rose-gold))',
+					light: 'hsl(var(--rose-gold-light))',
+					dark: 'hsl(var(--rose-gold-dark))'
+				},
+				'soft-pink': {
+					DEFAULT: 'hsl(var(--soft-pink))',
+					accent: 'hsl(var(--soft-pink-accent))',
+					deep: 'hsl(var(--soft-pink-deep))'
+				},
+				'light-gray': 'hsl(var(--light-gray))',
+				'medium-gray': 'hsl(var(--medium-gray))',
+				'warm-gray': 'hsl(var(--warm-gray))',
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
@@ -62,6 +78,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				'heading': ['Playfair Display', 'Georgia', 'serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif']
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-soft': 'var(--gradient-soft)',  
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
