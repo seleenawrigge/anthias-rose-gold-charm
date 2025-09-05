@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Calendar, Star, Award } from 'lucide-react';
+import { Calendar, Star } from 'lucide-react';
 import heroImage from '@/assets/hero-salon.jpg';
 
 const Hero = () => {
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Anthias Luxury Salon Interior"
+          alt="Anthias Salon Interior"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/40 to-transparent"></div>
@@ -31,7 +31,7 @@ const Hero = () => {
             <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 leading-tight">
               <span className="text-luxury">Anthias</span>
               <br />
-              <span className="text-foreground">Luxury Salon</span>
+              <span className="text-foreground">Salon</span>
             </h1>
 
             <p className="text-xl text-elegant mb-8 leading-relaxed">
@@ -57,10 +57,6 @@ const Hero = () => {
 
             {/* Trust Indicators */}
             <div className="flex flex-wrap items-center gap-8 text-sm text-muted-foreground">
-              <div className="flex items-center space-x-2">
-                <Award className="w-5 h-5 text-primary" />
-                <span>Award Winning</span>
-              </div>
               <div className="flex items-center space-x-2">
                 <div className="w-5 h-5 rounded-full bg-primary"></div>
                 <span>Premium Products</span>
