@@ -37,12 +37,11 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-heading font-bold text-luxury">Anthias</h3>
-                <p className="text-sm text-muted-foreground -mt-1">Luxury Salon</p>
               </div>
             </div>
             
             <p className="text-elegant leading-relaxed mb-6">
-              Experience the pinnacle of beauty and wellness at our award-winning luxury salon, 
+              Experience the pinnacle of beauty and wellness at our salon, 
               where expert stylists create transformative experiences.
             </p>
 
@@ -154,7 +153,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-primary/10">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <span>© {currentYear} Anthias Luxury Salon. All rights reserved.</span>
+              <span>© {currentYear} Anthias. All rights reserved.</span>
             </div>
             
             <div className="flex items-center space-x-4 text-sm">
